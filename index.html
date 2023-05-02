@@ -172,7 +172,7 @@
          <!-- Barra inferior -->
     <div class="bottom-bar">
         <div>
-            <a href="https://instagram.com/umacompraincrivel?igshid=ZDdkNTZiNTM=" target="_blank">Instagram</a>
+            <a href="https://instagram.com/geferson_p_santos?igshid=ZDdkNTZiNTM=">Instagram</a>
         </div>
         <div>
             <a href="tiktok-link">TikTok</a>
@@ -224,6 +224,15 @@
 });
     </script>
     
+    <script>window.addEventListener('scroll', function() {
+        var searchBar = document.querySelector('.search-bar');
+        var searchBarPosition = searchBar.getBoundingClientRect().top;
+        if (searchBarPosition <= 0) {
+          searchBar.classList.add('fixed');
+        } else {
+          searchBar.classList.remove('fixed');
+        }
+      });</script>
 
       <script>// Quando o usuário rolar a página para baixo 20px do topo do documento, mostre o botão
         window.onscroll = function() {scrollFunction()};
@@ -242,7 +251,7 @@
           document.documentElement.scrollTop = 0; // Para Chrome, Firefox, IE e Opera
         }</script>
 
-        <script>const messages = [ //placehouder dinamico 
+        <script>const messages = [
             "Digite o nome do produto",
             "Ou o número do vídeo",
             "Encontre o melhor preço",
