@@ -87,7 +87,7 @@ main {
 }
 
 .product p {
-    font-size: 11px;
+    font-size: 16px;
     margin-bottom: 10px;
     display: none;
 }
@@ -199,4 +199,11 @@ main {
             to {opacity: 1}
           }
   
-        
+          .search-bar {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            z-index: 9999;
+            /* outros estilos que você queira aplicar */
+          }
