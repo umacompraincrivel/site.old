@@ -60,12 +60,11 @@ header input[type="text"] {
 
 main {
     margin-top: 5px;
+    background-color: #f5f8fd;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     padding: 10px;
- 
-    
 }
 
 .product {
