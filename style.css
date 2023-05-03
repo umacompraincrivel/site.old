@@ -56,6 +56,7 @@ header input[type="text"] {
 }
 
 main {
+    margin-top: 85px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -69,7 +70,7 @@ main {
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    margin: 10px;
+    margin: 3px;
     padding: 5px;
     text-align: center;
     width: 130px;
@@ -87,6 +88,7 @@ main {
 .product p {
     font-size: 11px;
     margin-bottom: 10px;
+ 
 }
 
 .product span {
