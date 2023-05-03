@@ -6,8 +6,11 @@
 
 body {
     font-family: Arial, sans-serif;
-    margin-bottom: 50px;
+   
     max-width: 980px;
+    margin: 0 auto;
+
+    
     
     
     
@@ -215,3 +218,5 @@ main {
             z-index: 9999;
             /* outros estilos que você queira aplicar */
           }
+
+       
