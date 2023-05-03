@@ -66,6 +66,7 @@ main {
 }
 
 .product {
+    margin-top: 5px;
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 5px;
