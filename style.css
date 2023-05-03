@@ -74,7 +74,7 @@ main {
     margin: 3px;
     padding: 5px;
     text-align: center;
-    width: 130px;
+    width: 145px;
 }
 
 .product img {
@@ -159,6 +159,7 @@ main {
             box-sizing: border-box;
             color: #fff;
             font-size: 18px;
+        
         }
 
         /* Estilo dos links */
@@ -166,6 +167,7 @@ main {
             color: #fff;
             text-decoration: none;
             margin: 0 10px;
+            
         }
         .slideshow-container {
             position: relative;
