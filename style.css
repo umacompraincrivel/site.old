@@ -1,7 +1,7 @@
 * {
     box-sizing: border-box;
-    margin:  0;
-    padding:  0;
+    margin:  auto;
+    padding:  auto;
 }
 
 body {
@@ -9,12 +9,9 @@ body {
 }
 
 header {
-        margin-top: 85px;
-        text-align: center;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-    
+    background-color: #f2f2f2;
+    padding: 20px;
+    text-align: center;
 }
 
 header h1 {
@@ -59,25 +56,23 @@ header input[type="text"] {
 }
 
 main {
-    margin-top: 5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-    padding: 5px;
+    padding: 20px;
  
     
 }
 
 .product {
-   
     background-color: #fff;
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
-    margin: 3px;
+    margin: 10px;
     padding: 5px;
     text-align: center;
-    width: 200px;
+    width: 130px;
 }
 
 .product img {
@@ -92,11 +87,10 @@ main {
 .product p {
     font-size: 11px;
     margin-bottom: 10px;
- 
 }
 
 .product span {
-    font-size: 14px;
+    font-size: 10px;
     font-weight: bold;
 }
 
@@ -170,37 +164,6 @@ main {
             text-decoration: none;
             margin: 0 10px;
         }
-.slideshow-container {
-    position: relative;
-    width: 100%;
-    height: 100px;
-  }
-  
-  .mySlides {
-    display: none;
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-  
-  .mySlides img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  
-  /* Fading animation */
-  .fade {
-    animation-name: fade;
-    animation-duration: 1s;
-  }
-  
-  @keyframes fade {
-    from {opacity: .4}
-    to {opacity: 1}
-  }
 
   
         
